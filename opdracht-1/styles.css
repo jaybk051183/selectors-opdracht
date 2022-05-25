@@ -3,3 +3,64 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+/* opdracht1.1 */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+/* opdracht1.2 */
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+/* opdracht1.3 */
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-around;
+}
+
+.three ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-shrink:20;
+    flex-grow:20;
+    flex-basis: 50px;
+}
+
+/* opdracht1.4 */
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* opdracht1.5 */
+
+.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-shrink:3;
+    flex-grow:1;
+    flex-basis: 1200px;
+
+}
+
+
